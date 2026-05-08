@@ -393,6 +393,7 @@ nav a:hover { color:var(--gold2); }
 }
 /* PROJECTS */
 .pj-grid { display:grid; grid-template-columns:1fr 1fr; gap:22px; }
+.pj-featured { grid-column: 1 / -1; }
 .pj {
   padding:36px 32px; border-radius:8px;
   background:var(--dim); border:1px solid var(--bdr);
@@ -744,6 +745,27 @@ footer {
     <div class="overline">Selected Work</div>
     <h2 class="sec-title">Key <em>Projects</em></h2>
     <div class="pj-grid">
+      <div class="pj pj-featured">
+        <div class="pj-type">Deep Learning · Binary Classification</div>
+        <h3 class="pj-title">ANN Churn Classification</h3>
+        <div class="pj-org">
+          <a href="https://annclassificationchurn-srgf6gbtvlvj3aipqmz8r9.streamlit.app/" target="_blank" style="color:var(--teal);text-decoration:none;">🚀 Live Demo</a>
+          &nbsp;·&nbsp;
+          <a href="https://github.com/Krishna-Lohith/ANN_Classification_Churn" target="_blank" style="color:var(--teal);text-decoration:none;">GitHub Repo</a>
+        </div>
+        <p class="pj-desc">Built an end-to-end bank customer churn prediction system using an Artificial Neural Network, achieving <strong style="color:#fff;">86.35% accuracy</strong> on 10,000 records. Full pipeline covers preprocessing, label &amp; one-hot encoding, feature scaling, and a multi-layer ANN trained with TensorFlow/Keras. Deployed as an interactive Streamlit web app. Includes a hyperparameter-tuned variant using Keras Tuner for optimal layer depth and learning rate.</p>
+        <div class="pj-stack">
+          <span class="pj-tag">Python</span>
+          <span class="pj-tag">TensorFlow</span>
+          <span class="pj-tag">Keras</span>
+          <span class="pj-tag">Scikit-Learn</span>
+          <span class="pj-tag">Pandas</span>
+          <span class="pj-tag">NumPy</span>
+          <span class="pj-tag">Streamlit</span>
+          <span class="pj-tag">ANN</span>
+          <span class="pj-tag">Binary Classification</span>
+        </div>
+      </div>
       <div class="pj">
         <div class="pj-type">IoT &amp; Computer Vision · Hackathon</div>
         <h3 class="pj-title">Accident Detection &amp; Alert System Using IoT</h3>
@@ -848,4 +870,4 @@ footer {
   </div>
 </footer>
 </body>
-</html>
+</html> # this is my portfolio hosted Vercel via github repo. Now your task is to add the ANN Classification project in project section. Make sure it aligns with the website, make sure there is no error or bug in it. and it has to open in any device.
